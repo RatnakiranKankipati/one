@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+}
+ h1{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    position: relative;
+    background-color: aquamarine;
+   padding-left: 550px;
+    padding-top: 50px;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.form label{
+    padding: 10px 0;
+}
+input{
+    width: 200px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    width: 70px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: rgb(235, 132, 101);
+    color: white;
+}
+.output{
+    background-color: rgb(125, 248, 100);
+    padding-left: 550px;
+    
+}
+/* edit[index].addEventListener("click",()=>{
+    if(edit[index].innerHTML="edit"){
+        edit[index].innerHTML="save"
+        e[0].removeAttribute("readonly")
+        e[1].removeAttribute("readonly")
+        e[2].removeAttribute("readonly")
+        e[3].removeAttribute("readonly")
+    }
+    else{
+        edit[index].innerHTML="save"
+        e[0].setAttribute("readonly","readonly")
+        e[1].setAttribute("readonly","readonly")
+        e[2].setAttribute("readonly","readonly")
+        e[3].setAttribute("readonly","readonly")   
+    } */
